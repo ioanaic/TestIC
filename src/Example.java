@@ -12,7 +12,8 @@ public class Example {
         int x = SkeletonJava.readIntConsole("x=");
         int y = SkeletonJava.readIntConsole("y=");
 
-        int sum = x + y;
+        int sum = x;
+
 
         SkeletonJava.printConsole(sum);
     }
