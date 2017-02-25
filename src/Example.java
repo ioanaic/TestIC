@@ -15,7 +15,8 @@ public class Example {
         int sum = x;
 //        int counter = y;
         //while(counter > 0) {
-        for(int counter = y; counter > 0; counter--) {
+//        for(int counter = y; counter > 0; counter--) {
+        for(int counter = 0; counter < y; counter++) {
             sum = sum + 1;
 //            counter -= 1;
         }
