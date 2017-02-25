@@ -13,9 +13,13 @@ public class Example {
         int y = SkeletonJava.readIntConsole("y=");
 
         int sum = x;
+        int counter = y;
 
-
-        SkeletonJava.printConsole(sum);
+        while(counter > 0) {
+            sum = sum + 1;
+            counter -= 1;
+        }
+        SkeletonJava.printConsole(x + "+" + y + " = " + sum);
     }
 
 }
