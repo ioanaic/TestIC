@@ -21,12 +21,12 @@ public class Example {
             min = x;
         }
 
-        int sum = max;
+        int sum = 0;
 //        int counter = y;
         //while(counter > 0) {
 //        for(int counter = y; counter > 0; counter--) {
         for(int counter = 0; counter < min; counter++) {
-            sum = sum + 1;
+            sum = sum + max;
             SkeletonJava.printConsole("Adding 1 to sum");
 //            counter -= 1;
         }
