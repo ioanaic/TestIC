@@ -8,7 +8,7 @@ public class MaxFromRead {
 
         int n = SkeletonJava.readIntConsole("How many numbers should I read?");
 
-        int max = 0;
+        int max = Integer.MIN_VALUE;
         for(int i = 0; i<n ; i ++) {
             int read = SkeletonJava.readIntConsole("Give me a number!");
             if(read > max) {
