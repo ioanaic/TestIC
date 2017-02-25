@@ -13,11 +13,11 @@ public class Example {
         int y = SkeletonJava.readIntConsole("y=");
 
         int sum = x;
-        int counter = y;
-
-        while(counter > 0) {
+//        int counter = y;
+        //while(counter > 0) {
+        for(int counter = y; counter > 0; counter--) {
             sum = sum + 1;
-            counter -= 1;
+//            counter -= 1;
         }
         SkeletonJava.printConsole(x + "+" + y + " = " + sum);
     }
