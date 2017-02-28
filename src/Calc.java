@@ -6,4 +6,6 @@ public class Calc {
     public static int add(int cucurigu , int b) {
         return cucurigu + b;
     }
+
+    //add comm
 }
